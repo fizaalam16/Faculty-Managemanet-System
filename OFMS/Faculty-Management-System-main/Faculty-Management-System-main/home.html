@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style1.css">
+    <title>Sign In</title>
+</head>
+<body>
+    
+    <div class="container" id="container">
+        <div class="form-container admin-container">
+            <form action="#">
+                <h1>Admin Login</h1>
+                
+                <input type="email" placeholder="Email">
+                <input type="password" placeholder="Password">
+                <a href="#">Forgot your password?</a>
+                <button> <a href="admin.html" class="connector">Sign In</a></button>
+            </form>
+        </div>
+        <div class="form-container fac-container">
+            <form action="#">
+                <h1>Faculty Login</h1>
+                
+                <input type="email" placeholder="Email">
+                <input type="password" placeholder="Password">
+                <a href="#">Forgot your password?</a>
+                <button> <a href="faculty.html">Sign In</a></button>        
+            </form>
+        </div>
+        <div class="overlay-container">
+            <div class="overlay">
+                <div class="overlay-panel overlay-left">
+                    <h1>For Faculty</h1>
+                    <button class="ghost" id="tchr">Click here</button>
+                </div>
+                <div class="overlay-panel overlay-right">
+                    <h1>For Admin</h1>
+                    <button class="ghost" id="admin">Click here</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="js/app.js"></script>
+</body>
+</html>
